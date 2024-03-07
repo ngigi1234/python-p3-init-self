@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
 
 class Dog:
-    pass
+    def __init__(self, name, breed):
+        self.breed= breed
+        self.name=name
+        
+Bosco=Dog("Dosco","German")
